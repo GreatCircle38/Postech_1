@@ -1,1 +1,5 @@
+str = "exist to be observed"
+list1 = ToCharacterCode[str]
 
+list = {0, 0.5, 1, \[Pi], \[Sqrt]2, \[CapitalEpsilon]}
+new_1 = list1 + RandomChoice[list, Length[list1]]
